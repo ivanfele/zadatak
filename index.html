@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+        <title>Zadatak</title>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+	<body>
+        <div class="main">
+            <button onclick= "showHide()" class="btn">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+        </div>
+        <div id="mini">
+            <div class="cart"> 
+                <span class="title"><b>My Cart (5 items)</b></span>
+                <div id="up">
+                    <button onclick="scrollUp()" class="up"><i class="fas fa-sort-up"></i></button>
+                </div>
+                <ul id="items">                
+                <li>
+                    <div class="item1">
+                        <img src="images/pic2.png" alt="item1" />
+                        <span class="description"><br>
+                            <span class="name">Just Disk GT-S Cross Drilled</span><br>
+                            <span class="brandicolor">Brand: Barbour International</span><br>
+                            <span class="brandicolor">Size: 405mm</span><br>
+                            <span class="price">1 x $950.00</span>
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <div class="item2">
+                        <img src="images/pic1.png" alt="item2" />
+                        <span class="description"><br>
+                            <span class="name">Set of GT-S Series Cross Drilled </span><br>
+                            <span class="brandicolor">Brand: Brembo</span><br>
+                            <span class="brandicolor">Color: Red</span><br>
+                            <span class="price">1 x $1770.00</span>
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <div class="item3">
+                        <img src="images/pic3.png" alt="item3" />
+                        <span class="description">
+                            <span class="name">Synthetic Break Fluid</span><br>
+                            <span class="brandicolor">Brand: Valvoline</span><br>
+                            <span class="brandicolor">Size: 354ml</span><br>
+                            <span class="price">1 x $10.00</span>
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <div class="item4">
+                        <img src="images/pic4.png" alt="item4" />
+                        <span class="description">
+                            <span class="name">Just Disk GT-S Cross Drilled </span><br>
+                            <span class="brandicolor">Brand: Brembo</span><br>
+                            <span class="brandicolor">Color: Green</span><br>
+                            <span class="price">1 x $1770.00</span>
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <div class="item5">
+                        <img src="images/pic5.png" alt="item5" />
+                        <span class="description">
+                            <span class="name">GT Slotted 2 Piece Brake Rotors</span><br>
+                            <span class="brandicolor">Brand: Brembo</span><br>
+                            <span class="brandicolor">Color: Yellow</span><br>
+                            <span class="price">2 x $1670.00</span>
+                        </span>
+                    </div>
+                </li>
+            </ul>
+                
+                <div id="down">
+                    <button onclick="scrollDown()" class="down"><i class="fas fa-sort-down"></i></button>
+                </div>
+                <div class="buttons">
+                    <button href="#" class="btn-cart1"><b>Edit Cart</b></button>
+                    <button href="#" class="btn-cart2">CHECKOUT</button>
+                </div>
+            </div>
+          
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
